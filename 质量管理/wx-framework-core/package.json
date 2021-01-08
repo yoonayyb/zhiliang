@@ -1,0 +1,16 @@
+{
+  "name": "project_name",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp wxss"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.4.4",
+    "dayjs": "^1.8.34"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-px2rpx": "^0.2.2"
+  }
+}

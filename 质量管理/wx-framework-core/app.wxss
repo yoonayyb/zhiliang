@@ -1,0 +1,106 @@
+/**app.wxss**/
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+page,
+.van-tabbar {
+  --primary-color: #3e9572;
+  --background-color: #f2f4f5;
+  --tabbar-height: 120rpx;
+  --tabbar-padding-bottom: calc(env(safe-area-inset-bottom) / 2);
+}
+page {
+  --search-action-text-color: var(--primary-color);
+  --search-bar-background-color: var(--background-color);
+  --tabs-bottom-bar-color: var(--primary-color);
+  --tab-active-text-color: var(--primary-color);
+  --radio-checked-icon-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+page .van-divider {
+  margin: 0;
+  padding: 16rpx 0;
+  border-color: transparent;
+}
+page .van-empty {
+  padding: 0;
+}
+auth {
+  --primary-color: #3e9572;
+  --background-color: #f2f4f5;
+}
+image {
+  width: auto;
+  height: auto;
+}
+scroll-view {
+  -webkit-overflow-scrolling: touch;
+}
+scroll-view[enable-flex] {
+  flex: 1 1 auto;
+}
+scroll-view[scroll-x] {
+  overflow-x: auto;
+}
+scroll-view[scroll-y] {
+  overflow-y: auto;
+}
+.van-button {
+  --button-large-height: 100rpx;
+  --button-default-height: 88rpx;
+  --button-small-height: 56rpx;
+  --button-mini-height: 48rpx;
+  --button-default-color: var(--primary-color);
+  --button-primary-border-color: var(--primary-color);
+  --button-primary-background-color: var(--primary-color);
+  --button-large-font-size: 40rpx;
+  --button-normal-font-size: 32rpx;
+  --button-small-font-size: 28rpx;
+  --button-mini-font-size: 24rpx;
+  --button-border-radius: 8rpx;
+  line-height: inherit !important;
+  font-size: var(--button-normal-font-size) !important;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.12);
+}
+.van-button .van-button__text,
+.van-button .van-button__icon,
+.van-button .van-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  line-height: inherit !important;
+  vertical-align: middle;
+}
+.van-button--large {
+  font-size: var(--button-large-font-size) !important;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+}
+.van-button--small {
+  font-size: var(--button-small-font-size) !important;
+  box-shadow: 0 0 14rpx rgba(0, 0, 0, 0.08);
+}
+.van-button--mini {
+  font-size: var(--button-mini-font-size) !important;
+  box-shadow: 0 0 12rpx rgba(0, 0, 0, 0.05);
+}
+.van-loading {
+  --loading-spinner-color: var(--primary-color);
+}
+.van-tabbar {
+  --tabbar-background-color: #eceff0;
+  --tabbar-item-active-color: var(--primary-color);
+  --tabbar-item-icon-size: 48rpx;
+  --tabbar-item-margin-bottom: 0rpx;
+  padding-bottom: var(--tabbar-padding-bottom, 0);
+  box-shadow: 0 0 32rpx rgba(0, 0, 0, 0.12);
+}
+.van-tabbar-item {
+  height: var(--tabbar-height, 0) !important;
+}

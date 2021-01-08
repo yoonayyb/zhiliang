@@ -1,0 +1,24 @@
+<!--components/auth/index.wxml-->
+<van-popup
+  bind:close="close"
+  closeable="{{ !hideClose }}"
+  custom-class="auth"
+  position="bottom"
+  show="{{ show }}"
+  z-index="{{ 100001 }}"
+>
+  <image class="logo" src="/images/logo.jpg" />
+  <view class="text" wx:if="{{ !canIUse }}">请升级微信版本</view>
+  <view class="text" wx:if="{{ canIUse }}">申请获取以下权限</view>
+  <view class="text" wx:if="{{ canIUse }}">获得你的公开信息(昵称，头像等)</view>
+  <van-button
+    bind:getuserinfo="getUserInfo"
+    block
+    custom-class="button"
+    disabled="{{ loading }}"
+    loading="{{ loading }}"
+    open-type="getUserInfo"
+    type="primary"
+    wx:if="{{ canIUse }}"
+  >获取授权</van-button>
+</van-popup>

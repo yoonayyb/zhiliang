@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "auth": "/components/auth/index"
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["location"],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将有助于医生提供更好的服务"
+    }
+  }
+}

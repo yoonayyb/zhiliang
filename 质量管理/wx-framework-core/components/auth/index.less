@@ -1,0 +1,26 @@
+/* components/auth/index.wxss */
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  width: 256rpx;
+  height: 256rpx;
+  margin: 128rpx 0;
+}
+.text {
+  width: calc(100vw - 128rpx);
+  line-height: 64rpx;
+  font-size: 32rpx;
+  color: #333;
+  & + & {
+    font-size: 28rpx;
+    color: #888;
+  }
+}
+.button {
+  width: calc(100vw - 128rpx);
+  margin-top: 64rpx;
+}

@@ -1,0 +1,69 @@
+# 目录
+
+- [环境配置](install.md)
+  - [工具包管理](install.md#工具包管理)
+    - 安装
+  - [Node](install.md#node)
+    - 安装 Node
+    - 安装 npm 更新工具
+  - [Git](install.md#git)
+    - 安装
+    - 配置
+    - SSH
+  - [终端工具](install.md#终端工具)
+    - 安装
+    - 终端切换
+  - [VSCode](install.md#vscode)
+    - 安装
+    - 插件
+    - 配置
+  - [小程序开发者工具（必用）](install.md#小程序开发者工具)
+    - 安装
+    - 插件
+    - 配置
+  - [GitKraken（选用）](install.md#gitkraken)
+    - 安装
+    - 登录
+    - 配置
+- [Git 分支管理](git-branch.md)
+  - [分支规范](git-branch.md#分支规范)
+  - [场景分解](git-branch.md#场景分解)
+  - [更新日志](git-branch.md#更新日志)
+- [Git 子模块管理](git-submodule.md)
+  - [添加](git-submodule.md#添加)
+  - [修改](git-submodule.md#修改)
+  - [更新](git-submodule.md#更新)
+  - [删除](git-submodule.md#删除)
+  - [文档规范](git-submodule.md#文档规范)
+- [小程序框架说明](wx-framework.md)
+  - [创建项目](wx-framework.md#创建项目)
+  - [添加文件](wx-framework.md#添加文件)
+  - [依赖插件](wx-framework.md#依赖插件)
+    - 安装
+    - 构建
+    - 转换单位
+  - [命名规范](wx-framework.md#命名规范)
+    - 文件名
+    - CSS
+    - JavaScript
+  - [全局样式](wx-framework.md#全局样式)
+    - 使用`display:flex`布局
+    - 使用`自定义属性`设置 CSS 变量
+  - [项目相关](wx-framework.md#项目相关)
+    - 修改项目本地配置
+    - 添加医院必要参数
+    - 编写业务模块代码
+- [小程序业务模块说明](wx-modules.md)
+  - [创建子模块](wx-modules.md#创建子模块)
+  - [提交代码](wx-modules.md#提交代码)
+  - [子模块树状图参考](wx-modules.md#子模块树状图参考)
+    - 就诊卡管理
+    - 在线咨询
+- [JavaScript 编码规范](javascript.md)
+  - [Airbnb JavaScript 风格指南](https://github.com/airbnb/javascript)
+    > 文档底部有中文译本链接
+- [CSS 编码规范](css.md)
+  - [Airbnb CSS / Sass 样式指南](https://github.com/airbnb/css)
+    > 文档底部有中文译本链接
+
+---
